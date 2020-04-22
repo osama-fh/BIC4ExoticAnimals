@@ -1,8 +1,8 @@
-# BIC4 Project: Bizarre animals
+# BIC4 Project: Exotic animals
 
 ## The register of exotic animals
 
-This software lists bizarre animals and species belongs to them.
+This software lists exotic animals and species belongs to them.
 It is possible to search for animals by various parameters.
 
 ## Exercise
