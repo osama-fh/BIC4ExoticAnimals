@@ -16,6 +16,7 @@ All routes that are needed are implemented:
  * **POST** ```/animal``` &rarr; Stores new animals
  * **GET** ```/animal/{slug}``` &rarr; Show animal
  * **PUT** ```/animal/{slug}``` &rarr; Update animal
+ * **DELETE** ```/animal/{slug}``` &rarr; Delete animal
  * **GET** ```/animal/{slug}/edit``` &rarr; Edit animal
  * **GET** ```/search/animal``` &rarr; Search animals
  * **POST** ```/search/animal``` &rarr; Query animals
@@ -24,6 +25,7 @@ All routes that are needed are implemented:
  * **POST** ```/species``` &rarr; Stores new species
  * **GET** ```/species/{slug}``` &rarr; Show species
  * **PUT** ```/species/{slug}``` &rarr; Update species
+ * **DELETE** ```/species/{slug}``` &rarr; Delete species
  * **GET** ```/species/{slug}/edit``` &rarr; Edit species
 
 All views can be found in ```/resources/views```.
@@ -32,8 +34,8 @@ All views can be found in ```/resources/views```.
 
 #### VueJS
 
-Implement your [VueJS](https://vue.js) components in the folder ```/resources/views/js/components```.
-Register your components in ```/resources/views/js/app.js``` and use them in the following files:
+Implement your [VueJS](https://vue.js) components in the folder ```/resources/js/components```.
+Register your components in ```/resources/js/app.js``` and use them in the following files:
 
  * ```/resources/views/species```
      * ```/resources/views/species/create.blade.php```
