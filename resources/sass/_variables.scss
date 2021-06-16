@@ -18,7 +18,7 @@ $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
 
-$primary:      hsl(171, 100%, 41%);
+$primary: hsl(112, 20%, 38%);
 $grey-darker:  hsl(0, 0%, 21%);
 $grey-dark:    hsl(0, 0%, 29%);
 $grey:         hsl(0, 0%, 48%);
@@ -29,3 +29,12 @@ $card-header-background-color: darken($primary, 5%);
 $card-header-color: #fff;
 
 $footer-padding: 1rem 2.5rem 2.5rem;
+$navbar-background-color: hsl(112, 19%, 47%);
+$navbar-item-color: hsl(114, 20%, 29%);
+$navbar-item-hover-color: hsl(0, 0%, 100%);
+$navbar-item-hover-background-color: hsl(111, 22%, 54%);
+$navbar-item-active-color: hsl(0, 0%, 100%);
+$navbar-dropdown-item-hover-background-color: hsl(40, 13%, 95%);
+$navbar-dropdown-item-active-color: hsl(111, 22%, 54%);
+$button-active-color:hsl(111, 22%, 54%);
+$link:hsl(114, 20%, 29%);

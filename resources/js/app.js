@@ -5,7 +5,9 @@
  */
 require('./bootstrap');
 
+import Vue from 'vue';
 import vue from 'vue';
+import moment from 'moment';
 
 window.Vue = vue;
 
@@ -22,6 +24,26 @@ window.Vue = vue;
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('query-message', require('./components/base/QueryMessage.vue').default);
+Vue.component('confirmation-dialog', require('./components/base/Dialog.vue').default);
+Vue.component('animal-list', require('./components/animal/animal-list').default);
+Vue.component('animal-create', require('./components/animal/animal-create').default);
+Vue.component('animal-edit', require('./components/animal/animal-edit').default);
+Vue.component('animal-search', require('./components/animal/animal-search').default);
+Vue.component('animal-detail', require('./components/animal/animal-detail').default);
+Vue.component('species-list', require('./components/species/species-list').default);
+Vue.component('species-create', require('./components/species/species-create').default);
+Vue.component('species-edit', require('./components/species/species-edit').default);
+Vue.component('species-detail', require('./components/species/species-detail').default);
+
+/**
+ * Filters
+ */
+
+ Vue.filter('formatDate', function(value) {
+    if (value) {
+        return moment(String(value)).format('DD/MM/YYYY hh:mm')
+    }
+});
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -29,6 +51,9 @@ Vue.component('query-message', require('./components/base/QueryMessage.vue').def
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+
+
 const app = new Vue({
     el: '#app',
+
 });

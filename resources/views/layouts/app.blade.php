@@ -40,10 +40,10 @@
 </head>
 <body>
 <div id="app">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ route('welcome') }}">
-                <img src="{{asset('img/Logo.png')}}" width="112" height="28">
+                <img src="{{asset('img/Logo.png')}}" width="30">
             </a>
 
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -141,9 +141,7 @@
     </div>
 
     <footer class="footer">
-        <div class="content has-text-centered">
-            <small>Here comes some footer</small>
-        </div>
+
     </footer>
 </div>
 </body>

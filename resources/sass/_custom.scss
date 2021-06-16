@@ -1,5 +1,6 @@
 .main {
-    background: #F7F7F7;
+    background: #feffde;
+
 }
 
 .is-fullheight.columns {
@@ -39,9 +40,94 @@
 }
 
 .footer{
+    background-color: #52734d   ;
+    color: white;
     height: 5vh;
 }
 
 .hero.is-fullheight-with-navbar{
     min-height: calc(100vh - 6.75rem);
+}
+
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #00d1b2;
+    color: #00d1b2;
+}
+
+.button.is-primary {
+    background-color: #52734d;
+    border-color: transparent;
+    color: #fff;
+    &:hover{
+        background-color:#689062;
+        border-color: #52734d;
+    }
+}
+
+.card-header {
+    background-color: #91c788;
+    align-items: stretch;
+    box-shadow: 0 1px 2px rgb(10 10 10 / 10%);
+    display: flex;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #333d29;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.card {
+    border-radius: 10px;
+
+}
+
+
+.tag:not(body).is-link {
+    background-color: #52734d;
+    color: #fff;
+}
+
+.button.is-danger.is-outlined {
+    background-color: #f05945;
+    color: #fff;
+    &:hover{
+        background-color: #cb5955;
+    }
+}
+
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #52734d;
+    margin-top: -0.375em;
+    right: 1.125em;
+}
+
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 1.5rem;
+}
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #52734d;
+    color: #52734d;
+    &:hover{
+        background-color:#52734d ;
+        border-color: #52734d;
+    }
+}
+
+
+.tag:not(body).is-link {
+    margin: 2px;
+}
+
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    padding-top:10px ;
 }
